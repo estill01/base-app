@@ -16,6 +16,7 @@ source 'http://rubygems.org'
   gem "dynamic_form"
   gem 'compass'
   gem 'cancan'
+  gem 'gravatar_image_tag', '1.0.0.pre2'
 
 group :development do
   gem 'thin'
@@ -31,6 +32,7 @@ group :development do
   gem 'launchy' # So you can do Then show me the page
   gem 'email_spec', "1.0.0"
   gem 'factory_girl_rails'
+  gem 'annotate-models', '1.0.4'
 end
 
 
